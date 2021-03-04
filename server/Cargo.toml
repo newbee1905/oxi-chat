@@ -1,0 +1,30 @@
+[package]
+name = "sparow-chat-server"
+version = "0.1.0"
+authors = ["newbee1905 <beenewminh@outlook.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+log = "0.4"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+jsonwebtoken = "7"
+chrono = { version = "0.4", features = ["serde"] }
+regex = "1.4"
+lazy_static = "1.4.0"
+futures = "0.3"
+tokio = { version = "1.2.0", features = ["full"] }
+tokio-stream = "0.1"
+warp = "0.3"
+# flate2 = { version = "1.0", features = ["zlib"], default-features = false }
+bytes = "1.0.1"
+thiserror = "1"
+uuid = { version = "0.8", features = ["serde", "v4"] }
+sqlx = { version = "0.5", features = ["runtime-tokio-rustls", "postgres", "uuid", "chrono"] }
+anyhow = "1"
+argonautica = "0.2.0"
+rand = "0.8"
+dotenv = "0.15.0"
+pretty_env_logger = "0.4.0"

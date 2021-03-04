@@ -1,0 +1,2 @@
+[tasks.run]
+script = "cd client/ && npm install && npm run build && cd ../server/ && cargo run"
