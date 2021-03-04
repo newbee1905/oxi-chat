@@ -1,5 +1,6 @@
 # RUST
 /server/target
+/server/.vscode
 
 # NODE
 /client/node_modules
@@ -7,6 +8,7 @@
 /client/node_modules
 /client/.pnp
 /client/.pnp.js
+/client/.vscode
 
 # testing
 /client/coverage
