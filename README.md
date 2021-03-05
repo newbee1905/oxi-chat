@@ -10,6 +10,7 @@ This project is a simple chat application written with warp-rs, svelte and postg
 
 ## Requirement
 * rust
+* llvm/clang
 * nodejs
 * postgres
 * ngrok <span style="color: grey; font-style: italic">(optional)</span>
