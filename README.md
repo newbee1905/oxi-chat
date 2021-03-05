@@ -18,10 +18,10 @@ This project is a simple chat application written with warp-rs, svelte and postg
 * Set up your postgresql configuration in ```.env```
 * Add your admin's username and password, default it will be admin and 1234
 
-<span style="color: green; font-weight: bold;">Example of using ngrok as host</span>
+Example of using ngrok as host
 * Run ```ngrok http 3030``` then copy the ngrok link
 * Copy the ngrok link then paste it into ```client/src/config.ts```
-* <span style="color: green; font-weight: bold;">Example:</span> ```https://6108c614fd28.ngrok.io``` to ```export let url = "https://6108c614fd28.ngrok.io"``` inside ```client/src/config.ts```
+* Example: ```https://6108c614fd28.ngrok.io``` to ```export let url = new URL("https://6108c614fd28.ngrok.io")``` inside ```client/src/config.ts```
 * Run ```npm install && npm run build``` inside ```client```
 * Then run ```cargo run``` inside ```server```
 
